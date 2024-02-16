@@ -29,7 +29,7 @@ try:
     camera.start_preview()
     
     # Load a pre-trained model
-    model = tf.keras.models.load_model('/home/amsozzer/picar-4wd/examples/model.h5')
+    model = tf.keras.models.load_model('/home/amsozzer/picar-4wd/Picar_4wd/model_mine.h5')
 
     while True:
         # Capture an image
