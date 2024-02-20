@@ -23,9 +23,9 @@ speed = 30
 
 # Destination coordinates
 destination = [500, 550]
-
+#/home/amsozzer/Car-self_driving-correct/examples/my_model.keras
 # Load TensorFlow model for object detection
-model = tf.keras.models.load_model('/home/amsozzer/picar-4wd/Picar_4wd/model_mine.keras')
+model = tf.keras.models.load_model('/home/amsozzer/Car-self_driving-correct/examples/my_model.keras')
 
 def preprocess_image(image):
     image = cv2.rotate(image,cv2.ROTATE_180)
